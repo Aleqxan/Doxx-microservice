@@ -2,6 +2,7 @@ package com.doxx.department.controller;
 
 import com.doxx.department.service.DepartmentService;
 import com.doxx.department.entity.Department;
+import lombork.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.spirngframework.web.bind.annotation.RequestMapping;
